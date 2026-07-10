@@ -1,0 +1,22 @@
+.progress{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:4px;
+
+    transform-origin:left;
+
+    z-index:9999;
+
+    background:linear-gradient(
+        90deg,
+        #22C55E,
+        #4ADE80,
+        #60A5FA
+    );
+
+    box-shadow:
+        0 0 12px rgba(34,197,94,.45);
+}

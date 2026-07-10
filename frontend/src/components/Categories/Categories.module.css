@@ -1,0 +1,122 @@
+.section{
+    padding:100px 30px;
+    background:#111827;
+}
+
+.container{
+    max-width:1280px;
+    margin:auto;
+}
+
+.container h2{
+    color:white;
+    text-align:center;
+    font-size:3rem;
+}
+
+.container p{
+    color:#9CA3AF;
+    text-align:center;
+    margin-top:12px;
+}
+
+.grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.card{
+
+    background:#0B1120;
+
+    border-radius:24px;
+
+    padding:40px 30px;
+
+    border:1px solid rgba(255,255,255,.05);
+
+    transition:.35s;
+
+    cursor:pointer;
+
+}
+
+.card:hover{
+
+    border-color:#22C55E;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.45);
+
+}
+
+.icon{
+
+    width:70px;
+    height:70px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:18px;
+
+    background:#22C55E;
+
+    color:white;
+
+    font-size:1.8rem;
+
+    margin-bottom:25px;
+
+}
+
+.card h3{
+
+    color:white;
+
+    margin-bottom:15px;
+
+    font-size:1.5rem;
+
+}
+
+.card span{
+
+    color:#9CA3AF;
+
+    line-height:1.7;
+
+}
+
+@media(max-width:1000px){
+
+.grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.grid{
+
+grid-template-columns:1fr;
+
+}
+
+.container h2{
+
+font-size:2.2rem;
+
+}
+
+}
